@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Season Report</title>
+    <link href="/css/main.css" rel="stylesheet" media="screen" />
+</head>
+<body>
+
+<form action="/reports/season-report" method="get">
+    <select id="seasonSelected" name="seasonSelected">
+        <option value="2015-2016">2015-2016</option>
+        <option value="2019-2020">2019-2020</option>
+        <option value="epl2015-2016" selected="selected">epl2015-2016</option>
+        <option value="epl2019-2020">epl2019-2020</option>
+    </select>
+    <input type="submit" value="Generate Report">
+</form>
+
+<div>
+
+    <div>
+        <h1>Final Standings for <span>epl2015-2016</span></h1>
+        <table>
+            <thead>
+            <tr>
+                <th scope="col">Team</th>
+                <th scope="col">Played</th>
+                <th scope="col">Points</th>
+                <th scope="col">Goal Difference</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span>Chelsea</span></td>
+                <td><span>76</span></td>
+                <td><span>186</span></td>
+                <td><span>104</span></td>
+            </tr>
+            <tr>
+                <td><span>Tottenham</span></td>
+                <td><span>76</span></td>
+                <td><span>172</span></td>
+                <td><span>120</span></td>
+            </tr>
+            <tr>
+                <td><span>Man City</span></td>
+                <td><span>76</span></td>
+                <td><span>156</span></td>
+                <td><span>82</span></td>
+            </tr>
+            <tr>
+                <td><span>Liverpool</span></td>
+                <td><span>76</span></td>
+                <td><span>152</span></td>
+                <td><span>72</span></td>
+            </tr>
+            <tr>
+                <td><span>Arsenal</span></td>
+                <td><span>76</span></td>
+                <td><span>150</span></td>
+                <td><span>66</span></td>
+            </tr>
+            <tr>
+                <td><span>Man United</span></td>
+                <td><span>76</span></td>
+                <td><span>138</span></td>
+                <td><span>50</span></td>
+            </tr>
+            <tr>
+                <td><span>Everton</span></td>
+                <td><span>76</span></td>
+                <td><span>122</span></td>
+                <td><span>36</span></td>
+            </tr>
+            <tr>
+                <td><span>Southampton</span></td>
+                <td><span>76</span></td>
+                <td><span>92</span></td>
+                <td><span>-14</span></td>
+            </tr>
+            <tr>
+                <td><span>Bournemouth</span></td>
+                <td><span>76</span></td>
+                <td><span>92</span></td>
+                <td><span>-24</span></td>
+            </tr>
+            <tr>
+                <td><span>West Brom</span></td>
+                <td><span>76</span></td>
+                <td><span>90</span></td>
+                <td><span>-16</span></td>
+            </tr>
+            <tr>
+                <td><span>West Ham</span></td>
+                <td><span>76</span></td>
+                <td><span>90</span></td>
+                <td><span>-34</span></td>
+            </tr>
+            <tr>
+                <td><span>Stoke</span></td>
+                <td><span>76</span></td>
+                <td><span>88</span></td>
+                <td><span>-30</span></td>
+            </tr>
+            <tr>
+                <td><span>Leicester</span></td>
+                <td><span>76</span></td>
+                <td><span>88</span></td>
+                <td><span>-30</span></td>
+            </tr>
+            <tr>
+                <td><span>Crystal Palace</span></td>
+                <td><span>76</span></td>
+                <td><span>82</span></td>
+                <td><span>-26</span></td>
+            </tr>
+            <tr>
+                <td><span>Swansea</span></td>
+                <td><span>76</span></td>
+                <td><span>82</span></td>
+                <td><span>-50</span></td>
+            </tr>
+            <tr>
+                <td><span>Burnley</span></td>
+                <td><span>76</span></td>
+                <td><span>80</span></td>
+                <td><span>-32</span></td>
+            </tr>
+            <tr>
+                <td><span>Watford</span></td>
+                <td><span>76</span></td>
+                <td><span>80</span></td>
+                <td><span>-56</span></td>
+            </tr>
+            <tr>
+                <td><span>Hull</span></td>
+                <td><span>76</span></td>
+                <td><span>68</span></td>
+                <td><span>-86</span></td>
+            </tr>
+            <tr>
+                <td><span>Middlesbrough</span></td>
+                <td><span>76</span></td>
+                <td><span>56</span></td>
+                <td><span>-52</span></td>
+            </tr>
+            <tr>
+                <td><span>Sunderland</span></td>
+                <td><span>76</span></td>
+                <td><span>48</span></td>
+                <td><span>-80</span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <p>
+    <div>
+        <h3>Other Statistics</h3>
+        <table>
+            <tbody>
+            <tr>
+                <th>Home Wins</th>
+                <td><span>374</span></td>
+            </tr>
+            <tr>
+                <th>Away Wins</th>
+                <td><span>218</span></td>
+            </tr>
+            <tr>
+                <th>Draws</th>
+                <td><span>168</span></td>
+            </tr>
+            <tr>
+                <th>Goalless Draws</th>
+                <td><span>54</span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>
+
+    <div>
+        <h1>Statistics for Referees</h1>
+        <table>
+            <thead>
+            <tr>
+                <th scope="col">Referee</th>
+                <th scope="col">Home Wins</th>
+                <th scope="col">Away Wins</th>
+                <th scope="col">Draws</th>
+                <th scope="col">Goalless Draws</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>C Pawson</td>
+                <td>24</td>
+                <td>16</td>
+                <td>8</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>M Clattenburg</td>
+                <td>20</td>
+                <td>6</td>
+                <td>18</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>M Jones</td>
+                <td>20</td>
+                <td>10</td>
+                <td>6</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>L Probert</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>M Dean</td>
+                <td>28</td>
+                <td>16</td>
+                <td>16</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>R Madley</td>
+                <td>36</td>
+                <td>10</td>
+                <td>14</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>l Mason</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>N Swarbrick</td>
+                <td>22</td>
+                <td>18</td>
+                <td>8</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>A Marriner</td>
+                <td>20</td>
+                <td>24</td>
+                <td>12</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>G Scott</td>
+                <td>12</td>
+                <td>4</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>C Kavanagh</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>L Mason</td>
+                <td>26</td>
+                <td>2</td>
+                <td>10</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>S Attwell</td>
+                <td>8</td>
+                <td>8</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>P Tierney</td>
+                <td>8</td>
+                <td>4</td>
+                <td>8</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>J Moss</td>
+                <td>18</td>
+                <td>32</td>
+                <td>10</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>A Taylor</td>
+                <td>30</td>
+                <td>22</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>K Friend</td>
+                <td>18</td>
+                <td>10</td>
+                <td>12</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>R East</td>
+                <td>10</td>
+                <td>8</td>
+                <td>4</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>M Atkinson</td>
+                <td>26</td>
+                <td>14</td>
+                <td>14</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>M Oliver</td>
+                <td>44</td>
+                <td>10</td>
+                <td>12</td>
+                <td>0</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</p>
+<div><!DOCTYPE html>
+<html>
+<head>
+    <link href="/resources/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+</head>
+<body>
+    
+    <div align="center">
+        <span>Borg Institutes</span>
+    </div>
+    <div align="center">
+        &copy; <span>2026</span>
+        <span>Report application </span><span></span>
+    </div>
+</body>
+</html>
+
+</div>
+
+</body>
+</html>
