@@ -1,6 +1,6 @@
 # Convert an App to RESTful API
 
-## Running starter application
+## Milestone 1. Running starter application
 
 ### Changes to starter application code to make it work with Java 17 and newer versions of dependencies
 #### pom.xml
@@ -38,3 +38,16 @@
 - Match.java : Change javax.persistence to jakarta.persistence
 - Change thymeleaf syntax :~{fragments/footer.html}
 
+## Milestone 2. Convert the application to REST
+
+### Changes to the application source code
+#### Java source code
+- MatchController.java: Add the @RequestController annotation to the class. Create new methods to return the requested JSON responses. Note that instead of using @GetMapping annotation, the @RequestMapping annotation is used.
+- MatchControllerTest.java: added the methods to test the new methods in MatchController.java class according to the project requirements.
+
+#### pom.xml
+- Removed the spring-boot-starter-thymeleaf dependency
+- added the springdoc-openapi-starter-webmvc-ui dependency
+
+#### HTML templates and CSS
+- Remove the .html and the CSS files.
